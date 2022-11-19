@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries | Level 2</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="countries.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper-div">
+      <label for="countries"></label>
+      <select name="countries" id="country-select" onchange="displayCountry()">
+        <option value="">Select a country</option>
+      </select>
+      <div class="country-container">
+        <div class="country-info">
+          <div class="country-name">
+            <label>Name: </label>
+            <span></span>
+          </div>
+          <div class="country-population">
+            <label>Population: </label><span></span>
+          </div>
+          <div class="country-capital">
+            <label>Capital: </label><span></span>
+          </div>
+          <div class="country-area">
+            <label>Area: </label>
+            <span></span> Km<sup>2</sup>
+          </div>
+        </div>
+
+        <div class="country-flag">
+          <img src="" alt="" />
+        </div>
+      </div>
+      <div class="country-facts">
+        <div class="country-largest-population">
+          <label>Country with the largest population: </label>
+          <span></span>
+        </div>
+        <div class="country-largest-area">
+          <label>Country with the largest area: </label>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
